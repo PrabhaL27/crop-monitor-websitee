@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Smart Farm Dashboard</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="container">
+    <h1>Smart Farm Crop Monitoring</h1>
+
+    <div class="sensor-data">
+      <h2>Sensor Readings</h2>
+      <p>Temperature: <span id="temperature">--</span> °C</p>
+      <p>Humidity: <span id="humidity">--</span> %</p>
+      <p>Soil Moisture: <span id="soil">--</span></p>
+      <p>Rain Detected: <span id="rain">--</span></p>
+    </div>
+
+    <div class="crop-suggestion">
+      <h2>Crop Suggestion</h2>
+      <p id="crop">Loading...</p>
+    </div>
+
+    <div class="pest-alert">
+      <h2>Pest Alert</h2>
+      <p id="pest">Loading...</p>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
